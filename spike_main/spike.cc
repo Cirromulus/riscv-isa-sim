@@ -159,7 +159,6 @@ int main(int argc, char** argv)
 
   if (dump_dts) {
     printf("%s", s.get_dts());
-    return 0;
   }
 
   if (ic && l2) ic->set_miss_handler(&*l2);
